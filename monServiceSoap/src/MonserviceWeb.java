@@ -16,5 +16,8 @@ public class MonserviceWeb {
         return a+b;
     }
 
+    public Etudiant getEtudiant(int identifiant){
+        return  new Etudiant(1 , "Mario", 19);
+    }
 
 }
